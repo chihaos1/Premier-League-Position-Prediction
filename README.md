@@ -5,7 +5,7 @@ Final Website Link: https://plposprediction-api.herokuapp.com/
 The project aimed to explore the relationship between a Premier League team's statistics and the position it would be able to achieve at the end of the season.
 
 **Data Collection:**\
-The data were scrapped from [Wikipedia](https://en.wikipedia.org/wiki/1992%E2%80%9393_FA_Premier_League), where every team's statistics have been documented since the first season of the Premier League. Scrapy was used for this task and the outputs were stored in a CSV file.
+The data were scrapped from [Wikipedia](https://en.wikipedia.org/wiki/1992%E2%80%9393_FA_Premier_League), where every team's statistics have been documented since the first completed season of the Premier League to the most recent completed season (2019-2020 Season at the time of this project). Scrapy was used for this task and the outputs were stored in a CSV file.
 
 **Data Analysis and Model Building:**\
 The notebook used for this step could be found [here](https://nbviewer.jupyter.org/github/chihaos1/Premier-League-Position-Prediction/blob/main/Premier%20League%20Position%20Prediction.ipynb). To briefly explain the analysis, the target variable was Position, which indicated the final place a team finished at after the season concluded. The features included Points, Games Played, Games Won, Games Drawn, Games Lost, Goals Scored, Goals Conceded, and Goal Deficits. Understanding the correlations between the features and the target could help to build a linear regression model that is capable of predicting a team's position given the parameters. 
