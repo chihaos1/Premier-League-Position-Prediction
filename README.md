@@ -2,7 +2,7 @@
 Final Website Link: https://plposprediction-api.herokuapp.com/
 
 **Project Overview:**\
-The project aimed to explore the relationship between a Premier League team's statistics and the position it would be able to achieve at the end of the season.
+To explore the relationship between a Premier League team's statistics and the position it would be able to achieve at the end of the season.
 
 **Data Collection:**\
 The data were scrapped from [Wikipedia](https://en.wikipedia.org/wiki/1992%E2%80%9393_FA_Premier_League), where every team's statistics have been documented since the first completed season of the Premier League to the most recent completed season (2019-2020 Season at the time of this project). Scrapy was used for this task and the outputs were stored in a CSV file.
